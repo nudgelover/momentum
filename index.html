@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="ko">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Momentum App</title>
+    <link rel="stylesheet" href="/css/style.css" />
+  </head>
+  <body>
+    <div class="box">
+      <button id="logout_btn" class="hidden" onclick="logout()">Logout</button>
+      <div id="link">
+        <a href="https://www.google.co.kr/"
+          ><img
+            style="top: 20"
+            src="https://cdn-icons-png.flaticon.com/512/281/281764.png"
+        /></a>
+        <a href="https://www.naver.com/"
+          ><img
+            style="top: 10"
+            src="data:image/png;base64,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"
+        /></a>
+      </div>
+      <h2 id="clock">00:00:00</h2>
+      <form id="login-form">
+        <input
+          required
+          minlength="2"
+          maxlength="15"
+          type="text"
+          placeholder="What is your name?"
+        />
+        <button id="login">Log in</button>
+      </form>
+      <div id="useronly" class="hidden">
+        <h1 id="greeting"></h1>
+        <form id="todo-form">
+          <input type="text" placeholder="Write a To Do and Press Enter" />
+        </form>
+        <ul id="todo-list"></ul>
+      </div>
+      <div id="quote">
+        <span></span>
+        <br />
+        <span></span>
+      </div>
+      <div id="weather">
+        <span></span>
+        <span></span>
+      </div>
+    </div>
+    <script src="js/greetings.js"></script>
+    <script src="js/clock.js"></script>
+    <script src="js/quotes.js"></script>
+    <script src="js/background.js"></script>
+    <script src="js/todolist.js"></script>
+    <script src="js/weather.js"></script>
+  </body>
+</html>
